@@ -105,7 +105,7 @@
                       {{#instructor}}
                       {{^overview}}
                       <li>
-                        <a href="{{#site}}{{root}}{{/site}}instructor/key-points.html">Key Points</a>
+                        <a href="{{#site}}{{root}}{{/site}}instructor/key-points.html">{{#translate}}{{keypoints}}{{/translate}}</a>
                       </li>
                       {{/overview}}
                       <li>
@@ -120,7 +120,7 @@
                       {{^instructor}}
                       {{^overview}}
                       <li>
-                        <a href="{{#site}}{{root}}{{/site}}key-points.html">Key Points</a>
+                        <a href="{{#site}}{{root}}{{/site}}key-points.html">{{#translate}}{{keypoints}}{{/translate}}</a>
                       </li>
                       {{/overview}}
                       <li>
@@ -140,7 +140,7 @@
             {{/resources}}
 
             {{^overview}}{{#aio}}
-            <a href="{{#site}}{{root}}{{/site}}{{#instructor}}instructor/{{/instructor}}aio.html">See all in one page</a>
+            <a href="{{#site}}{{root}}{{/site}}{{#instructor}}instructor/{{/instructor}}aio.html">{{#translate}}{{see_aio}}{{/translate}}</a>
             {{/aio}}{{/overview}}
 
             <hr class="d-none d-sm-block d-md-none"/>
